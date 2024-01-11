@@ -2,20 +2,37 @@
     margin-top: -33px;
     color: white;
 }
-.Home{
-    background-color: rgb(246, 248, 249);
-    min-height: 100vh;
-}
-.container1{
-    background-color: rgb(237, 245, 247);
+.Home {
+    display: flex;
     height: 100vh;
-    width: 50vh;
+  }
+  
+  .container1 {
+    flex: 0.5;
+    overflow-y: auto;
+    border-right: 1px solid #d5eaf4;
+    background-color: rgb(246, 246, 246);
+  }
+  
+  .container2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container3 {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .container4 {
+    flex: 1;
+    padding-top: 10px;
+  }
+  
+.userSection{
+    display: flex;
+}
+.chatNav{
+  background-color: rgb(246, 246, 246);
 
-}
-.container2{
-    display: flex;
-    margin-top: 25px;
-}
-.container3{
-    display: flex;
 }
