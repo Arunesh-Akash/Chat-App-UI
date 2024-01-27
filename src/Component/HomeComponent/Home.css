@@ -1,0 +1,73 @@
+.Home {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100vh;
+  
+  }
+  
+  .container1 {
+    position: relative;
+    overflow-y: auto; 
+    border-right: 1px solid #d5eaf4;
+  }
+  
+  .container2{
+   display: flex;
+   align-items: center;
+  }
+
+  .density-icon-container .profile-settings-tooltip{
+    display: flex;
+    align-items: center;
+    display: none;
+    position: absolute;
+    top: 17px;
+    left: 27%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container3 {
+    display: flex;
+    margin-top: 20px;
+  }
+  .contact img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+  .container4 {
+    padding-top: 10px;
+    grid-column: span 1;
+    background-color: rgb(246, 246, 246);
+    width: 75vw;
+  
+  }
+
+  .profile-settings-tooltip p{
+    cursor: pointer;
+  }
+  .density-icon-container:hover .profile-settings-tooltip {
+    display: block; 
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    background-color: silver;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+  
+  }
+  .contact:hover {
+    background-color: aquamarine;
+  }

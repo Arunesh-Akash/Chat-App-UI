@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.signPic {
+  margin-top: -33px;
+  color: white;
+  text-align: center;
+}
+
+.main-container {
+  background-color: rgb(151, 149, 149);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .signPic {
+    margin-top: 0;
+  }
+
+  .signPic img {
+    height: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+

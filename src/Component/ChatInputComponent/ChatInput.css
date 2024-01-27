@@ -1,0 +1,28 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 63rem;
+    margin: auto;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  input {
+    height: 43px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 0.8rem;
+  }
+  
+  .send-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-left: -40px; 
+  }

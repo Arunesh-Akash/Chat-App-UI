@@ -1,0 +1,47 @@
+.profile-container {
+    background-color: #fc6767;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-contain {
+    background-color: rgb(250, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+    padding: 0.5rem;
+    gap: 1rem;
+    border-radius: 4px;
+    
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.form-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    padding: 20px;
+    text-align: center;
+}
+.form-contain Button{
+    margin-left: 1rem;
+}
